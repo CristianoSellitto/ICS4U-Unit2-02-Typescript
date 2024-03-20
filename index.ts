@@ -21,7 +21,7 @@ for (let counter = 0; counter < 3; counter++) {
 }
 
 const removedValue = basicStack.pop()
-console.log(`Removed ${removedValue}`)
+console.log(`Removed "${removedValue}"`)
 
 // Show the stack's value
 console.log(basicStack.showStack)
